@@ -55,8 +55,40 @@ body {
     border: 1px solid black;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 
 /*=====  End of CSS common style  ======*/
+
+
+/*=============================================
+=            header            =
+=============================================*/
+header {
+    background-image: url(../images/Hero-bg.png);
+    padding: 30px 0px 164px 0px;
+    background-position: cover;
+    /* height: 698px; */
+}
+
+
+/*=====  End of header  ======*/
+
+
 
 
 /*=============================================
@@ -66,8 +98,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin : 50px 150px;
-  
+    margin: 0px 150px;
+
 }
 
 .nav-title {
@@ -79,3 +111,109 @@ nav {
 }
 
 /*=====  End of Nav bar  ======*/
+
+
+/*=============================================
+=            banner            =
+=============================================*/
+.banner-content {
+    text-align: center;
+}
+
+.banner h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 65px;
+    text-align: center;
+    color: #252432;
+    margin-top: 150px;
+}
+
+.banner .btn-primary {
+    margin-top: 37px;
+}
+
+
+/*=====  End of banner  ======*/
+
+
+/*=============================================
+=            action            =
+=============================================*/
+.action {
+    padding: 178px 159px 116px 141px;
+    background-color: #f5f8ff;
+}
+
+.action-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.action-images img {
+    border-radius: 48px;
+}
+
+.action-items h2 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 42px;
+    color: #252432;
+}
+
+.action-items p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 125%;
+    color: rgba(37, 36, 50, 0.5);
+    margin: 23px 0px;
+}
+
+/*=====  End of action  ======*/
+
+
+/*=============================================
+=            Productive Users            =
+=============================================*/
+#Productive-users {
+    background-color: #f5f8ff;
+}
+
+.users-content {
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 80px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.users-content h2 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 38px;
+    text-align: center;
+    color: #252432;
+}
+
+.users-items {
+    margin-top: 40px;
+   
+}
+
+.users-items h1 {
+    font-weight: 700;
+    font-size: 80px;
+    color: var(--primary-color);
+}
+
+.users-items p {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*=====  End of Productive Users  ======*/
