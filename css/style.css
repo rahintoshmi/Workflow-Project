@@ -149,6 +149,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap:220px;
 }
 
 .action-images img {
@@ -223,7 +224,7 @@ nav {
 =            Users Reviews            =
 =============================================*/
 #user-review {
-  
+    padding-bottom: 137px;
     background-color: #f5f8ff;
     text-align: center;
 }
@@ -294,3 +295,44 @@ nav {
 }
 
 /*=====  End of Users Reviews  ======*/
+
+
+/*=============================================
+=            Focus better section            =
+=============================================*/
+#focus {
+    background-color: #f5f8ff;
+    padding-bottom: 92px;
+    text-align: center;
+}
+
+.focus-content {
+    padding: 71px 150px;
+    border-radius: 14px;
+    background-color: #fff;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.focus-content h2 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #000;
+}
+
+.focus-content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0px;
+}
+
+.focus-content img {
+    margin-top: 20px;
+    border-radius: 48px;
+}
+
+/*=====  End of Focus better section  ======*/
