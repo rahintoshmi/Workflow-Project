@@ -372,7 +372,7 @@ nav {
 }
 
 .form-items input[type="text"],
-.form-items input[type="email"],.form-items textarea {
+.form-items input[type="email"], .form-items textarea {
     border: 1px solid #d6dded;
     border-radius: 10px;
     padding: 20px 32px;
@@ -383,9 +383,48 @@ nav {
     display: block;
     width: 497px;
 }
+
 .form-items .btn-primary {
     margin-top: 19px;
     width: 497px;
 }
 
 /*=====  End of Form section  ======*/
+
+
+
+/*=============================================
+=            footer            =
+=============================================*/
+#footer {
+    padding: 104px 400px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#footer h1 {
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+#footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #8987a1;
+    margin: 8px 0px 20px;
+}
+
+#footer a {
+    margin: 0px 20px 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #8987a1;
+}
+
+
+/*=====  End of footer  ======*/
