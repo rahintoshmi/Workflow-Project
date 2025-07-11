@@ -149,7 +149,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap:220px;
+    gap: 220px;
 }
 
 .action-images img {
@@ -336,3 +336,56 @@ nav {
 }
 
 /*=====  End of Focus better section  ======*/
+
+
+/*=============================================
+=            Form section            =
+=============================================*/
+#form {
+    background-color: #f5f8ff;
+    padding: 71px 150px;
+}
+
+.form-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 115px;
+}
+
+.form-content h2 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 97px;
+    line-height: 120%;
+    color: #000;
+}
+
+.form-items label {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 10px;
+    margin-top: 19px;
+}
+
+.form-items input[type="text"],
+.form-items input[type="email"],.form-items textarea {
+    border: 1px solid #d6dded;
+    border-radius: 10px;
+    padding: 20px 32px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+    width: 497px;
+}
+.form-items .btn-primary {
+    margin-top: 19px;
+    width: 497px;
+}
+
+/*=====  End of Form section  ======*/
